@@ -1,0 +1,130 @@
+.LEDS {
+  position: absolute;
+  width: 247px;
+  height: 135px;
+  top: 201px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.leda,
+.ledb,
+.ledc {
+  position: relative;
+  width: 74.47px;
+  height: 135px;
+}
+
+.led1a,
+.led1b,
+.led1c {
+  position: absolute;
+  left: 2.31px;
+  top: 0px;
+  width: 39.83px;
+
+  border-top: 14.83px solid #ddd;
+  border-left: 14.83px solid transparent;
+  border-right: 14.83px solid transparent;
+  border-radius: 3.01px;
+}
+.led2a,
+.led2b,
+.led2c {
+  position: absolute;
+  top: 2.32px;
+  height: 37.73px;
+  border-left: 15.84px solid #ddd;
+  border-top: 15.84px solid transparent;
+  border-bottom: 11.84px solid transparent;
+  border-top-left-radius: 2.82px;
+  border-bottom-left-radius: 5.75px;
+}
+.led3a,
+.led3b,
+.led3c {
+  position: relative;
+  top: 2.32px;
+  right: 0px;
+  height: 37.73px;
+  border-right: 15.84px solid #ddd;
+  border-top: 15.84px solid transparent;
+  border-bottom: 11.84px solid transparent;
+  border-top-right-radius: 2.82px;
+  border-bottom-right-radius: 5.75px;
+}
+
+.led4a,
+.led4b,
+.led4c {
+  position: absolute;
+  height: 14px;
+  width: 43.5px;
+  background: #ddd;
+
+  bottom: 59.6px;
+  left: 15.5px;
+}
+.led4aL,
+.led4bL,
+.led4cL {
+  position: absolute;
+  bottom: 59.6px;
+  left: 5.75px;
+  width: 0px;
+  height: 0px;
+  border-top: 7.94px solid transparent;
+  border-bottom: 7.94px solid transparent;
+  border-right: 10.75px solid #ddd;
+}
+.led4aR,
+.led4bR,
+.led4cR {
+  position: absolute;
+
+  bottom: 59.6px;
+  right: 5.75px;
+  width: 0px;
+  height: 0px;
+  border-top: 7.94px solid transparent;
+  border-bottom: 7.94px solid transparent;
+  border-left: 10.75px solid #ddd;
+}
+.led5a,
+.led5b,
+.led5c {
+  position: absolute;
+  bottom: 2.32px;
+  height: 37.73px;
+  border-left: 15.84px solid #ddd;
+  border-bottom: 15.84px solid transparent;
+  border-top: 11.84px solid transparent;
+  border-bottom-left-radius: 2.82px;
+  border-top-left-radius: 5.75px;
+}
+
+.led6a,
+.led6b,
+.led6c {
+  position: absolute;
+  bottom: 2.32px;
+  right: 0px;
+  height: 37.73px;
+  border-right: 15.84px solid #ddd;
+  border-bottom: 15.84px solid transparent;
+  border-top: 11.84px solid transparent;
+  border-bottom-right-radius: 2.82px;
+  border-top-right-radius: 5.75px;
+}
+
+.led7a,
+.led7b,
+.led7c {
+  position: absolute;
+  left: 2.31px;
+  bottom: 0px;
+  width: 39.83px;
+  border-bottom: 14.83px solid #ddd;
+  border-left: 14.83px solid transparent;
+  border-right: 14.83px solid transparent;
+  border-radius: 3.01px;
+}
