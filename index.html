@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valdemar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="LED.css" />
+    <link rel="stylesheet" href="../css/homeIcon.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="scripts.js" defer></script>
+    <a href="../index.html" class="homeIcon">
+      <img src="../imgs/home.png" alt="homeIcon" srcset="" />
+    </a>
+    <div class="container">
+      <div class="box">
+        <div class="headq">QUAL É O NÚMERO?</div>
+        <div class="mbar"></div>
+        <div class="stscode">ERRO</div>
+        <div class="LEDS">
+          <div class="leda">
+            <div class="LEDSerro led1a"></div>
+            <div class="LEDSerro led2a"></div>
+            <div class="LEDSerro led3a"></div>
+            <div class="LEDSerro led4a"></div>
+            <div class="LEDSerro led4aL"></div>
+            <div class="LEDSerro led4aR"></div>
+            <div class="LEDSerro led5a"></div>
+            <div class="LEDSerro led6a"></div>
+            <div class="LEDSerro led7a"></div>
+          </div>
+          <div class="ledb">
+            <div class="led1b"></div>
+            <div class="led2b"></div>
+            <div class="led3b"></div>
+            <div class="led4b"></div>
+            <div class="led4bL"></div>
+            <div class="led4bR"></div>
+            <div class="led5b"></div>
+            <div class="led6b"></div>
+            <div class="led7b"></div>
+          </div>
+          <div class="ledc">
+            <div class="led1c"></div>
+            <div class="led2c"></div>
+            <div class="led3c"></div>
+            <div class="led4c"></div>
+            <div class="led4cL"></div>
+            <div class="led4cR"></div>
+            <div class="led5c"></div>
+            <div class="led6c"></div>
+            <div class="led7c"></div>
+          </div>
+        </div>
+        <div class="guess">
+          <form action="" id="digite">
+            <input
+              id="dtx"
+              type="number"
+              name="palpite"
+              placeholder="Digite o palpite"
+            />
+            <button id="submit">ENVIAR</button>
+            <!-- <input type="submit" value="ENVIAR" id="submit"> -->
+          </form>
+        </div>
+        <a href="#" class="again">
+          <img src="refresh.svg" id="ico" alt="ico" />
+          <span id="atx">NOVA PARTIDA</span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

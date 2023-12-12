@@ -1,16 +1,18 @@
 body {
   background-color: #e5e5e5;
+}
+.container {
   display: flex;
   justify-content: space-evenly;
 }
-.box { 
+.box {
   position: absolute;
   top: 5vh;
   background-color: white;
   width: 52.084vw;
   min-width: 365px;
   height: 588px;
-  background-image: linear-gradient(to bottom, #EEE, #FFF);
+  background-image: linear-gradient(to bottom, #eee, #fff);
   display: flex;
   justify-content: space-evenly;
 }
@@ -29,86 +31,78 @@ body {
   position: absolute;
   top: 44px;
   text-align: center;
-  background: linear-gradient(174.92deg, #EF6C00 18.47%, #DB6300 36.57%);
+  background: linear-gradient(174.92deg, #ef6c00 18.47%, #db6300 36.57%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-    
-    
 }
 .mbar {
-    background-color: #cfcfcf;
-    width: 13.3vw;
-    min-width: 205px;
-    height: 1px;
-    position: absolute;
-    top: 100px;
+  background-color: #cfcfcf;
+  width: 13.3vw;
+  min-width: 205px;
+  height: 1px;
+  position: absolute;
+  top: 100px;
 }
 .stscode {
-    color: #cc3300;
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: -1px;
-    line-height: 19.5px;
-    width: 248px;
-    height: 35px;
-    position: absolute;
-    top: 150px;
- 
-
+  color: #cc3300;
+  font-family: montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 19.5px;
+  width: 248px;
+  height: 35px;
+  position: absolute;
+  top: 150px;
 }
 .again {
-    background-image: linear-gradient(to bottom, #434854, #9e9e9e);
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 4px;
-    width: 130px;
-    height: 42px;
-    position: absolute;
-    top: 367px;
-    
-    
-} 
+  background-image: linear-gradient(to bottom, #434854, #9e9e9e);
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px;
+  width: 130px;
+  height: 42px;
+  position: absolute;
+  top: 367px;
+}
 #ico {
-    position:absolute;
-    top: 9px;
-    left: 6px;
+  position: absolute;
+  top: 9px;
+  left: 6px;
 }
 #atx {
-    position: absolute;
-    font-family: roboto, sans-serif;
-    font-weight: 700;
-    color: #FFF;
-    font-size: 12px;
-    line-height: 14px;
-    width: 88px;
-    height: 15px;
-    top: 14px;
-    left: 32px;
-
-
+  position: absolute;
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  width: 88px;
+  height: 15px;
+  top: 14px;
+  left: 32px;
 }
 #stx {
-    font-family: roboto, sans-serif;
-    color: #FFF;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 14px;
-    width: 45px;
-    height: 15px;
-    position: absolute;
-    top: 14px;
-    left: 15px;
+  font-family: roboto, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  width: 45px;
+  height: 15px;
+  position: absolute;
+  top: 14px;
+  left: 15px;
 }
 input [type="number"]:hover {
   cursor: text;
 }
 
 input {
-  color: #FFF;
+  color: #fff;
   border-radius: 4px;
   height: 42px;
   width: 70px;
@@ -118,10 +112,8 @@ input {
   font-size: 12px;
   font-weight: 700;
   line-height: 14px;
-  
 }
 #dtx {
-  
   font-family: roboto, sans-serif;
   font-style: normal;
   font-size: 12px;
@@ -131,23 +123,22 @@ input {
   width: 217px;
   height: 42px;
   position: absolute;
-  
+
   left: 8px;
   border: none;
   background-color: transparent;
   resize: none;
   outline: none;
   font-weight: 400;
-  
 }
 
 form:focus-within {
   background-color: #fff;
-  border: 1px solid #FF6600;
+  border: 1px solid #ff6600;
 }
 form:hover {
   background-color: #fff;
-  border: 1px solid #FF6600;
+  border: 1px solid #ff6600;
   cursor: text;
 }
 .guess {
@@ -163,7 +154,6 @@ form {
   height: 42px;
   position: absolute;
   box-sizing: border-box;
-  
 }
 input::-webkit-inner-spin-button {
   -webkit-appearance: inner-spin-button;
@@ -178,7 +168,7 @@ input::-webkit-inner-spin-button {
 }
 
 #submit:hover:focus-within {
-  background: linear-gradient(180deg, #EF6C00 0%, #C0661C 100%);
+  background: linear-gradient(180deg, #ef6c00 0%, #c0661c 100%);
   border-radius: 4px;
   height: 42px;
   position: absolute;
@@ -189,23 +179,23 @@ input::-webkit-inner-spin-button {
   line-height: 14px;
 }
 form:hover #submit {
-  background: linear-gradient(180deg, #EF6C00 0%, #C0661C 100%);
-  
+  background: linear-gradient(180deg, #ef6c00 0%, #c0661c 100%);
+
   font-family: roboto, sans-serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 14px;
 }
 form:focus-within #submit {
-  background: linear-gradient(180deg, #EF6C00 0%, #C0661C 100%);
-  
+  background: linear-gradient(180deg, #ef6c00 0%, #c0661c 100%);
+
   font-family: roboto, sans-serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 14px;
 }
 #submit:hover {
-  background: linear-gradient(180deg, #EF6C00 0%, #C0661C 100%);
+  background: linear-gradient(180deg, #ef6c00 0%, #c0661c 100%);
   border-radius: 4px;
   height: 42px;
   width: 70px;
@@ -230,4 +220,13 @@ form:focus-within #submit {
   font-size: 12px;
   font-weight: 700;
   line-height: 14px;
+}
+
+.homeIcon {
+  position: absolute;
+  width: 3rem;
+  z-index: 1;
+}
+.homeIcon img {
+  width: 3rem;
 }
